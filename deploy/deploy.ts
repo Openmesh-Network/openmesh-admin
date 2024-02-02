@@ -1,6 +1,7 @@
-import { Address, Deployer } from "../web3webdeploy/types";
+import { Address, DeployInfo, Deployer } from "../web3webdeploy/types";
 
-export interface OpenmeshAdminDeploymentSettings {}
+export interface OpenmeshAdminDeploymentSettings
+  extends Omit<DeployInfo, "contract" | "args"> {}
 
 export interface OpenmeshAdminDeployment {
   admin: Address;
@@ -13,6 +14,7 @@ export async function deploy(
   const admin = await deployer.deploy({
     id: "OpenmeshAdmin",
     contract: "OpenmeshAdmin",
+    ...settings,
   });
 
   return {
