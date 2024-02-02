@@ -2,10 +2,11 @@
 pragma solidity ^0.8.0;
 
 import {ENSReverseClaimable} from "../lib/ens-reverse-claimable/src/ENSReverseClaimable.sol";
+import {Openmesh} from "./Openmesh.sol";
 
-contract OpenmeshENSReverseClaimable is ENSReverseClaimable {
+contract OpenmeshENSReverseClaimable is Openmesh, ENSReverseClaimable {
     /// @inheritdoc ENSReverseClaimable
     function owner() external pure override returns (address) {
-        return 0xfF7e49aC5D00CbaaD0BF02165Fea31C0A411930e; // openmesh admin
+        return OPENMESH_ADMIN;
     }
 }
