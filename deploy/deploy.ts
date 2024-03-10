@@ -17,7 +17,12 @@ export async function deploy(
     ...settings,
   });
 
-  return {
+  const deployment = {
     admin: admin,
   };
+  await deployer.saveDeployment({
+    deploymentName: "latest.json",
+    deployment: deployment,
+  });
+  return deployment;
 }
