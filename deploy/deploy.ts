@@ -1,4 +1,4 @@
-import { Address, DeployInfo, Deployer } from "../web3webdeploy/types";
+import { Address, Deployer } from "../web3webdeploy/types";
 import { DeployAdminSettings, deployAdmin } from "./Admin/OpenmeshAdmin";
 
 export interface OpenmeshAdminDeploymentSettings {

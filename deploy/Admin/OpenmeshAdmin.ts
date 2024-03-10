@@ -1,5 +1,4 @@
 import { Address, DeployInfo, Deployer } from "../../web3webdeploy/types";
-import { Buffer } from "buffer";
 
 export interface DeployAdminSettings
   extends Omit<DeployInfo, "contract" | "args"> {}
