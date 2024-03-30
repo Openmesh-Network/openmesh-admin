@@ -15,7 +15,12 @@ export async function deploy(
   settings?: OpenmeshAdminDeploymentSettings
 ): Promise<OpenmeshAdminDeployment> {
   if (settings?.forceRedeploy !== undefined && !settings.forceRedeploy) {
-    return await deployer.loadDeployment({ deploymentName: "latest.json" });
+    const existingDeployment = await deployer.loadDeployment({
+      deploymentName: "latest.json",
+    });
+    if (existingDeployment !== undefined) {
+      return existingDeployment;
+    }
   }
 
   const admin = await deployAdmin(deployer, settings?.adminSettings ?? {});
