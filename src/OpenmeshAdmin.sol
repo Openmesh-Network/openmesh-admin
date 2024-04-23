@@ -10,7 +10,7 @@ contract OpenmeshAdmin is SmartAccount {
     constructor()
         SmartAccount(
             installer,
-            abi.encodeWithSelector(SmartAccountBaseInstaller.install.selector, 0x2309762aAcA0a8F689463a42c0A6A84BE3A7ea51)
+            abi.encodeWithSelector(SmartAccountBaseInstaller.install.selector, 0x6b221aA392146E31743E1beB5827e88284B09753)
         )
     {}
 }
