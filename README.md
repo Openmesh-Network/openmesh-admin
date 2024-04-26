@@ -1,15 +1,9 @@
-## Foundry Template
+## Openmesh Admin
 
-This template adds web3webdeploy and the slither analyzer to the base foundry project.
-
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+This project contains the smart contract account (Openmesh Admin) which contains the Openmesh treasury (coins and tokens) and is granted important permissions.  
+Furthermore, an abstract smart contract (Openmesh) is provided which will expose this Openmesh Admin smart account as a constant variable.  
+As this smart account uses CREATE2 for deployment, its address will be consistent across chains.  
+Lastly, an extension (OpenmeshReverseENSClaimable) of this abstract contract is provided, which allows the Openmesh Admin to claim the reverse ENS record for the smart contract.  
 
 ## Documentation
 
