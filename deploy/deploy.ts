@@ -38,7 +38,7 @@ export async function deploy(
     ...settings?.enableReceiversSettings,
   });
 
-  const deployment = {
+  const deployment: OpenmeshAdminDeployment = {
     admin: admin,
   };
   await deployer.saveDeployment({
