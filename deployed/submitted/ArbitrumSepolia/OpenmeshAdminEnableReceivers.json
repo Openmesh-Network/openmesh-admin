@@ -1,8 +1,8 @@
 {
   "type": "function",
-  "id": "OpenmeshAdminEnableReceivers_1",
-  "batch": "mainnet",
-  "batchIndex": 2,
+  "id": "OpenmeshAdminEnableReceivers",
+  "batch": "ArbitrumSepolia",
+  "batchIndex": 1,
   "functionName": "multicall",
   "functionArgs": [
     [
@@ -16,14 +16,14 @@
   "gas": "156336",
   "from": "0x6b221aA392146E31743E1beB5827e88284B09753",
   "transactionSettings": {
-    "chainId": 1,
+    "chainId": 421614,
     "nonce": "6",
-    "baseFee": "8000000000",
-    "priorityFee": "100000000"
+    "baseFee": "1500000000",
+    "priorityFee": "1500000000"
   },
   "source": "/home/plopmenz/openmesh-smart-contracts/lib/openmesh-admin",
   "submitted": {
-    "transactionHash": "0xabb9d555cc2b9662d0e4038e5dde52042e00f1bee4a18f06b753dbf4f532553d",
-    "date": "2024-04-24T21:39:05.508Z"
+    "transactionHash": "0x5e0e359fc511f0e649256d6cb644fbae5658b1971758ebca607d07c67d26a042",
+    "date": "2024-04-24T19:44:17.716Z"
   }
 }

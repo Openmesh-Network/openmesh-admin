@@ -1,8 +1,8 @@
 {
   "type": "function",
-  "id": "OpenmeshAdminEnableReceivers_421614",
-  "batch": "testnet",
-  "batchIndex": 3,
+  "id": "OpenmeshAdminEnableReceivers",
+  "batch": "Polygon",
+  "batchIndex": 1,
   "functionName": "multicall",
   "functionArgs": [
     [
@@ -16,14 +16,14 @@
   "gas": "156336",
   "from": "0x6b221aA392146E31743E1beB5827e88284B09753",
   "transactionSettings": {
-    "chainId": 421614,
-    "nonce": "6",
-    "baseFee": "1500000000",
-    "priorityFee": "1500000000"
+    "chainId": 137,
+    "nonce": "5",
+    "baseFee": "75000000000",
+    "priorityFee": "30000000000"
   },
   "source": "/home/plopmenz/openmesh-smart-contracts/lib/openmesh-admin",
   "submitted": {
-    "transactionHash": "0x5e0e359fc511f0e649256d6cb644fbae5658b1971758ebca607d07c67d26a042",
-    "date": "2024-04-24T19:44:17.716Z"
+    "transactionHash": "0xaab6bcc053452e6b32c496bac51ae84099a592beb20f15334ccf6092bb6e7577",
+    "date": "2024-04-24T21:30:38.235Z"
   }
 }

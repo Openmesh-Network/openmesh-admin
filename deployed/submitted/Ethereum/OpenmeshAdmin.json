@@ -1,8 +1,8 @@
 {
   "type": "deployment",
-  "id": "OpenmeshAdmin_137",
-  "batch": "mainnet",
-  "batchIndex": 1,
+  "id": "OpenmeshAdmin",
+  "batch": "Ethereum",
+  "batchIndex": 0,
   "deploymentAddress": "0x24496D746Fd003397790E41d0d1Ce61F4F7fd61f",
   "constructorArgs": [],
   "to": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
@@ -11,10 +11,10 @@
   "gas": "555776",
   "from": "0x6b221aA392146E31743E1beB5827e88284B09753",
   "transactionSettings": {
-    "chainId": 137,
-    "nonce": "4",
-    "baseFee": "75000000000",
-    "priorityFee": "30000000000"
+    "chainId": 1,
+    "nonce": "5",
+    "baseFee": "8000000000",
+    "priorityFee": "100000000"
   },
   "salt": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000OPENMESH",
   "artifact": {
@@ -162,7 +162,7 @@
   },
   "source": "/home/plopmenz/openmesh-smart-contracts/lib/openmesh-admin",
   "submitted": {
-    "transactionHash": "0xd908149c5f38e0b29945e11074161c67d47408b78050e1d8948bbfd6e374c6d5",
-    "date": "2024-04-24T21:30:29.849Z"
+    "transactionHash": "0x4af6075caf8d1b210e407a2f28c0360b35f609e8fc5a33ca120573e20621d135",
+    "date": "2024-04-24T21:38:59.506Z"
   }
 }
